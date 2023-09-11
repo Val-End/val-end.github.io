@@ -1,0 +1,26 @@
+.header{
+    overflow: hidden;
+    background-color: black;
+    padding: 5px 10px;
+}
+
+.header-item{
+    scale: 100%;
+    transition: scale 0.3s;
+}
+
+.header-item:hover{
+    scale: 125%;
+    transition: scale 0.5s;
+}
+
+.header-item:active{
+    scale: 90%;
+    transition: scale 0.1s;
+}
+
+#logo{
+    position: relative;
+}
+
+
