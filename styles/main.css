@@ -1,0 +1,53 @@
+.header{
+    position: sticky;
+    background-color: rgb(0, 0, 0);
+}
+
+.header-group{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-item{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+}
+
+.header-item:hover{
+    background-color: rgb(18, 18, 18);
+}
+
+#header-icon{
+    scale: 100%;
+    transition: scale 0.2s ease;
+}
+
+#header-icon:hover{
+    scale: 110%;
+}
+
+#header-icon:active{
+    scale: 90%;
+} 
+ 
+.header-tooltip { 
+    display: none; 
+    position: fixed;
+    margin-left: 95px;
+    font-size: large;
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
+}
+  
+.header-item:hover .header-tooltip {
+    display: inline;
+}
+
+video {
+    display: flex;
+    width: 100%;
+    z-index: -1;
+}
